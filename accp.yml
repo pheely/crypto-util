@@ -1,0 +1,8 @@
+build:
+  template: "java-gradle:generic"
+  substitutions:
+    _JDK_VERSION: jdk17
+    _VERSION_STRATEGY: ACCP
+    _FORTIFY_SCAN_STRATEGY: SKIP
+    _SONAR_SCAN_STRATEGY: SKIP
+    _BLACKDUCK_SCAN_STRATEGY: TRIGGER_ONLY
