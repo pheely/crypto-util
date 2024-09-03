@@ -1,20 +1,20 @@
-pluginManagement {
-    repositories {
-        maven {
-            url "${artifactory_contextUrl}/ext-release-maven-cache"
-            credentials {
-                username = artifactory_user
-                password = artifactory_password
-            }
-        }
-        maven {
-            url "${artifactory_contextUrl}/ext-release-camunda-public-cache"
-            credentials {
-                username = artifactory_user
-                password = artifactory_password
-            }
-        }
-    }
-}
+//pluginManagement {
+//    repositories {
+//        maven {
+//            url "${artifactory_contextUrl}/ext-release-maven-cache"
+//            credentials {
+//                username = artifactory_user
+//                password = artifactory_password
+//            }
+//        }
+//        maven {
+//            url "${artifactory_contextUrl}/ext-release-camunda-public-cache"
+//            credentials {
+//                username = artifactory_user
+//                password = artifactory_password
+//            }
+//        }
+//    }
+//}
 
-rootProject.name = 'crypto-utils'
+rootProject.name = 'crypto-util'
